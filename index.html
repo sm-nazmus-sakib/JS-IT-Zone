@@ -13,33 +13,84 @@
 </head>
 
 <body>
-    <header class="container my-4">
+    <header class="container my-5">
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="fs-1 fw-bold navbar-brand" href="#">JS IT Zone</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
-                  </li>
-                </ul>
-              </div>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+            <div class="container">
+                <a class="fs-1 fw-bold navbar-brand" href="#">JS IT Zone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
         <!-- navbar end -->
+
+        <!-- Banner section start -->
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="fs-1 fw-bold text-primary">Let the begin your career with confidence in your
+                                skills.</h1>
+                            <p class="text-color fw-bold">With experienced mentors and updated curriculum, JS IT Zone is
+                                ready to advance your career..</p>
+                                <button class="btn btn-primary px-4">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="fs-1 fw-bold text-primary">Let the begin your career with confidence in your
+                                skills.</h1>
+                            <p class="text-color fw-bold">With experienced mentors and updated curriculum, JS IT Zone is
+                                ready to advance your career..</p>
+                                <button class="btn btn-primary px-4">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="fs-1 fw-bold text-primary">Let the begin your care with confidence in your
+                                skills.</h1>
+                            <p class="text-color fw-bold">With experienced mentors and updated curriculum, JS IT Zone is ready to advance your career..</p>
+                            <button class="btn btn-primary px-4">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Banner section end -->
+
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
