@@ -1,3 +1,17 @@
 .text-color{
     color: #e74a0c;
 }
+
+.custom-text{
+    position: absolute;
+    /* right: 10%; */
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* color: #fff; */
+    text-align: center;
+}
+.slider-image{
+    filter: brightness(50%);
+}
